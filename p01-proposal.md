@@ -57,17 +57,18 @@ Spotify is the most popular music streaming platform in the United States. With 
 - https://www.hopkinsmedicine.org/health/wellness-and-prevention/keep-your-brain-young-with-music
 
 ### Research Questions ###
-**What genres of music/artists have risen in popularity within different parts of the world?**
+**What genres of music have risen in popularity within different parts of the world?**
 
 - This question looks into cultural differences and how that affects the popularity of certain music in different regions. Music from a certain country may be more popular across the globe than other countries. We plan to research more into why that is by looking into the country’s culture and demographic. It will allow us to ask why certain trends are occurring.
 
-**What genres of music/artists have been popularized within the past decade?**
+**What genres of music/artists have risen in popularity over time?**
 
-- Music that has been popular in the 2000’s is different from popular music in the 2010’s. Genres such as K-Pop have grown and expanded outside of Asia. A large reason as to why this occurred is the internet and its ability for people to easily access information from the other side of the world.
+- Music that has been popular in the 2000’s is different from popular music in the 2010’s. Genres such as K-Pop have grown and expanded outside of Asia in the past decade. A large reason as to why this occurred is the advancement of the Internet and its ability for people to easily access information from the other side of the world.
 
-**How does culture impact listening behaviors?**
 
-- Culture plays a large role in what people listen to as it is a part of their identity. We plan to look into different cultures around the world and research certain aspects of said cultures to see if there are links to popular music within that region.
+**What are the majority of top artists' country-of-origin in countries worldwide?**
+
+- In our culture in the US, the majority of top artists are originally from the US. We are wondering if this is true worldwide or whether artists from other countries are dominating the top charts as well.
 
 ### The Dataset ###
 
@@ -77,21 +78,24 @@ Our datasets will enable us to answer our research questions because they displa
 | ---- | ------------ | --------- |
 | charts.csv | 217704 | 9 |
 | genrev2.csv | 35877 | 22 |
-| top10s.csv | 603 | 15 |
+| songs_normalize.csv | 1879 | 18 |
+| artists.csv | 1466083 | 10
+
 
 
 Dave, Dhruvil. “Spotify Charts.” Kaggle, 9 Feb. 2022, https://www.kaggle.com/datasets/dhruvildave/spotify-charts.
 Samoshyn, Andrii. “Dataset of songs in Spotify.”  Kaggle, 2020,
 https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?select=genres_v2.csv
-Henrique, Leonardo. “Top 50 Spotify Songs - 2019.” Kaggle, 8 Aug. 2019, https://www.kaggle.com/datasets/leonardopena/top50spotify2019.
+Koverha, Mark. “Top Hits Spotify from 2000-2019.” Kaggle, 8 Aug. 2019, https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
+Piotr. “Music Artists Popularity.” Kaggle, 2018, https://www.kaggle.com/datasets/pieca111/music-artists-popularity
 
-The data files above are collected from Kaggle. The original data in all of the files comes from Spotify itself. The data has just been collected by third party individuals and imputed into Kaggle. All the data was collected from 2010 to 2017 and put into the dataset in 2018. It was then imputed into Kaggle over the next few years. Spotify initially collected the data for the RecSys Challenge. The goal of the challenge was to see if anyone could come up with a software that could recommend music based on the previously played songs. As a result, Spotify’s data was made public and individuals started to input the data into sites like Kaggle. Spotify will benefit most from the RecSys challenge as they can find better ways to recommend music to their users. The third parties will also benefit as anyone who uses their data on Kaggle must give them credit. Therefore, anyone who reads through an analysis will refer back to the dataset on Kaggle.
+The data files above are collected from Kaggle. The original data in three of the files comes from Spotify itself. The artist dataset comes from MusicBrainz, which compiled all the information about music artists into one large dataset. The data has just been collected by third party individuals and imputed into Kaggle. All the Spotify data was collected from 2010 to 2019 and put into the dataset in the late 2010s. It was then imputed into Kaggle over the next few years. Spotify initially collected the data for the RecSys Challenge. The goal of the challenge was to see if anyone could come up with a software that could recommend music based on the previously played songs. As a result, Spotify’s data was made public and individuals started to input the data into sites like Kaggle. Spotify will benefit most from the RecSys challenge as they can find better ways to recommend music to their users. The third parties will also benefit as anyone who uses their data on Kaggle must give them credit. Therefore, anyone who reads through an analysis will refer back to the dataset on Kaggle.
 
 We do not know how the contributors who input the data into Kaggle were funded. However, Spotify, the original source of the data, is funded by itself and collects the data from its users.
 
 Each data file has an ID or link that is associated with each observation. This means we can cross check it to make sure that the information is indeed valid. The information is somewhat trustworthy and credible to a certain extent as the original data comes from the source itself but was handled by a third party before coming to us. It is important to understand that the original data could have been altered or filtered in some way. The data is made available to us through a free platform called Kaggle, which allows anyone to view and download the data.
 
-It is important to recognize and credit the original data source (Spotify) as well as the third party individuals that inputted the data into Kaggle so we could access it.
+It is important to recognize and credit the original data sources (Spotify and MusicBrainz) as well as the third party individuals that inputted the data into Kaggle so we could access it.
 
 
 ### Expected Implications ###
@@ -121,3 +125,7 @@ Henrique, Leonardo. “Top 50 Spotify Songs - 2019.” Kaggle, 8 Aug. 2019, http
 “Keep Your Brain Young with Music.” Keep Your Brain Young with Music | Johns Hopkins Medicine, 13 Apr. 2022, https://www.hopkinsmedicine.org/health/wellness-and-prevention/keep-your-brain-young-with-music.
 
 “What Spotify Data Show about the Decline of English.” The Economist, The Economist Newspaper, https://www.economist.com/interactive/graphic-detail/2022/01/29/what-spotify-data-show-about-the-decline-of-english.
+
+Koverha, Mark. “Top Hits Spotify from 2000-2019.” Kaggle, 8 Aug. 2019, https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019
+
+Piotr. “Music Artists Popularity.” Kaggle, 2018, https://www.kaggle.com/datasets/pieca111/music-artists-popularity
